@@ -9,7 +9,6 @@ import os
 
 if __name__=="__main__":
     dir = sys.argv[1].strip()
-    print os.environ
     while True:
         files = glob.glob("{0}/*.xml".format(dir))
         if len(files) > 0:
